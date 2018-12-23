@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>    
+    <meta charset="utf-8" />
+    <meta name="description" content="Experimenting with CSS flexbox, animation, and Javascript through making my own website." />
+
+    <title>The perfect driving simulator</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="leg-container">
+            <div class="leg"></div>
+            <div class="leg"></div>
+        </div>
+        <button id="clear-car-button">Clear All Cars</button>
+
+        <div id="content-wrapper">
+
+            <h1 class="header">Pick any car!</h1>
+            <div id="grid-wrapper">
+
+                <section class="car-grid">
+                    <img class="car-pic" src="assets/img/red_car.png" alt="Red Car" />
+                    <button class="choose-car">Drive!</button>
+                </section>
+                
+                <section class="car-grid">
+                    <img class="car-pic" src="assets/img/monster_truck.png" alt="Monster Truck" />
+                    <button class="choose-car">Drive!</button>
+                </section>
+
+                <section class="car-grid">
+                    <img class="car-pic" src="assets/img/lime_car.png" alt="Lime Car" />
+                    <button class="choose-car">Drive!</button>
+                </section>
+
+                <section class="car-grid">
+                    <img class="car-pic" src="assets/img/grey_car.png" alt="Grey Car" />
+                    <button class="choose-car">Drive!</button>
+                </section>
+
+                <section class="car-grid">
+                    <img class="car-pic" src="assets/img/cyan_car.png" alt="Cyan Car" />
+                    <button class="choose-car">Drive!</button>
+                </section>
+
+                <section class="car-grid">
+                    <img class="car-pic" src="assets/img/yellow_car.png" alt="Yellow Car" />
+                    <button class="choose-car">Drive!</button>
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="car-count-section">
+        <h1>Current cars driving:</h1>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+/*=========================== CSS RESET ==========================*/
+body,html {
+    padding: 0;
+    margin: 0;
+    font-family: "Yu Gothic", Arial, Helvetica, sans-serif;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*=========================== THE CALCULATOR ==========================*/
+
+#calculator-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+form#calculator{ 
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 1px solid rgb(70,150,240);
+}
+
+table#calculator-buttons-layout {
+    width: 100%;
+}
+
+.calculator-button {
+    border: 0;
+    padding: 10px;
+    width: 40px;
+    background: rgb(76, 126, 228);
+    border-radius: 2px;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.calculator-button:hover{
+    background: rgb(100,70,230);
+}
+
+#calculator-display::-webkit-inner-spin-button,
+#calculator-display::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+#calculator {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0;
+}
+
+#result-button{
+    width: 100%;
+}
+
+#result-button-row{
+    width: 100%;
+}
+
+#result-button-row td{
+    width: 100%;
+}

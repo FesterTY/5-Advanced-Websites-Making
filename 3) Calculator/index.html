@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>The world's fastest calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div id="calculator-wrapper">
+        <form id="calculator">
+
+            <input type="text" name="calculator-display" id="calculator-display" readonly="readonly" placeholder="0"/>
+
+            <table id="calculator-buttons-layout">
+                <tr>
+                    <td><input type="button" value="C" class="calculator-button" id="reset-button" /></td>
+                    <td><input type="button" value="%" class="calculator-button" id="percentage-button" /></td>
+                    <td><input type="button" value="±" class="calculator-button" id="toggle-positive" /></td>
+                    <td><input type="button" value="√" class="calculator-button" id="square-root-button" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" class="calculator-button" /></td>
+                    <td><input type="button" value="2" class="calculator-button" /></td>
+                    <td><input type="button" value="3" class="calculator-button"/></td>
+                    <td><input type="button" value="+" class="calculator-button" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" class="calculator-button"/></td>
+                    <td><input type="button" value="5" class="calculator-button"/></td>
+                    <td><input type="button" value="6" class="calculator-button"/></td>
+                    <td><input type="button" value="-" class="calculator-button" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" class="calculator-button"/></td>
+                    <td><input type="button" value="8" class="calculator-button"/></td>
+                    <td><input type="button" value="9" class="calculator-button"/></td>
+                    <td><input type="button" value="✕" class="calculator-button" id="multiplication-button" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0" class="calculator-button" /></td>
+                    <td><input type="button" value="." class="calculator-button" /></td>
+                    <td><input type="button" value="^2" class="calculator-button" id="double-button" /></td>
+                    <td><input type="button" value="&#247;" class="calculator-button" id="division-button" /></td>
+                </tr>
+
+                <tr id="result-button-row">
+                    <td colspan="5"><input type="button" value="=" class="calculator-button" id="result-button" /></td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

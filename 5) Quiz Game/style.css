@@ -1,0 +1,62 @@
+/***********************************
+            CSS RESET
+************************************/
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background: #ff7700;
+    font-family: "Yu Gothic", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/***********************************
+            CUSTOM CSS
+************************************/
+
+#wrapper{
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    background: #ffffff;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.answer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.answer{
+    margin: 0 10px;
+}
+
+#submit-quiz-btn{
+    background: #fd9c00;
+    margin: 20px 0;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+#submit-quiz-btn:hover{
+    background: #ff6700;
+}
+
+/***********************************
+          WARNINGS/RESULTS
+************************************/
+
+.warning-wrong{
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    color: #fd2200;
+}

@@ -1,0 +1,63 @@
+/***************************************
+                CSS RESET
+****************************************/
+
+body,html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Yu Gothic", Arial, Helvetica, sans-serif;
+    background: #cecece;
+    box-sizing: border-box;
+}
+
+/****************************************
+                 CANVAS
+****************************************/
+
+#wrapper{
+    margin: 50px;
+}
+
+h2#title{
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#canvas{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block-canvas{
+    flex: 1 1 20px;
+    max-width: 20px;
+    height: 20px;
+    background: #ffffff;
+
+    cursor: url(assets/icons/hand-drawing.png),
+    auto;
+}
+
+.block-canvas:hover{
+    opacity: 0.75;
+}
+
+#color-picker{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.color-picker-block{
+    width: 50px;
+    height: 50px;
+    
+    cursor: pointer;
+}
